@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  height: 530vh;
+}
+
+#logo{
+    height: 50px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+    color: rgb(6, 127, 6);
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.search-box{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    height: 30px;
+    border-radius: 10px;
+    border: rgb(183, 183, 183) solid 2px;
+    padding-right: 30px;
+}
+
+#search-text{
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+#btn{
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 280px;
+    cursor: pointer;
+}
+
+#btn:hover{
+  background-color: #acf39f;
+  padding-right: 4px;
+  padding-left: 1px;
+}
+
+.material-symbols-outlined {
+    color: green;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48   
+}
+
+.cards-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 300px;
+  }
+  
+.card {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  width: calc(50% - 35px);
+}
+  
+.card img {
+  height: 200px;
+}
+
+.card img:hover {
+  box-shadow: 5px 5px 10px rgb(34, 81, 41);
+}
+
+.informations {
+  font-size: 50px;
+  margin-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-weight: bold;
+  color: #40c936;
+  font-size: 20px;
+}
+  
+.status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.status-Color {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%;
+}
+
+.green-status {
+  background-color: #26ff00;
+}
+  
+.red-status {
+  background-color: #ff0000;
+}
+  
+.gray-status {
+  background-color: #898989;
+}
+  
+.status-Text {
+  margin-left: 15px;
+  font-size: 13px;
+}
+
+.card p {
+  color: #bbbbbb;
+  font-size: 11px;
+  margin-bottom: -30px
+}
+.card span {
+  font-size: 14px;
+}
+
+.line {
+  height: 2px;
+  background-color: rgb(163, 230, 163);
+  border: none;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.portal-img{
+  position: absolute;
+  top: 3300px;
+  left: 600px;
+}
+
+#portal{
+    height: 300px;
+}
+
+.navigation{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#back{
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-left: 300px;
+  background-color: white;
+}
+
+#back:hover{
+  background-color:  #acf39f;
+  cursor: pointer;
+}
+
+#next{
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 20px;
+  margin-right: 300px;
+  background-color: white;
+}
+
+#next:hover{
+  background-color:  #acf39f;
+  cursor: pointer;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    height: 200px;
+    width: 100%;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px;
+}
+
+#copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+b{
+    margin-left: 5px;
+}
